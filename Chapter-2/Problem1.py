@@ -5,10 +5,14 @@
 
 # print("Sum is: " ,a+b)
 
-# finding remainder
+# # finding remainder
 
-a = int(input("Enter a number : "))
-z = int(input("Enter z number : "))
+# a = int(input("Enter a number : "))
+# z = int(input("Enter z number : "))
 
-ans = a % z ; 
-print("When",a, "is divided by ",z,"we get" ,ans, "as answer")
+# ans = a % z ; 
+# print("When",a, "is divided by ",z,"we get" ,ans, "as answer")
+
+# Checking type of variable given by input()
+
+print("Type is",type(input("Enter value: ")))
